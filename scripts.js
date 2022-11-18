@@ -62,10 +62,14 @@ window.addEventListener('load', function init () {
         if(event.target.id === 'up'){
             rocketPosY -= 10;
             rocket.style.marginBottom = rocketPosY + 'px'
+            altitude += 10000;
+            height.innerHTML = altitude;
         }
         if(event.target.id === 'down'){
             rocketPosY += 10;
             rocket.style.marginBottom = rocketPosY + 'px'
+            altitude += 10000;
+            height.innerHTML = altitude;
         }
     })
 
