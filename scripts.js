@@ -11,5 +11,6 @@ window.addEventListener('load', function init () {
 
     takeoff.addEventListener('click', event => {
         this.window.confirm("Confirm that the shuttle is ready for takeoff.")
+        status.innerHTML = "Shuttle in flight." 
     })
 })
