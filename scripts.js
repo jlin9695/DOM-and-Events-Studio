@@ -16,4 +16,7 @@ window.addEventListener('load', function init () {
         background.style.backgroundColor = "blue";
         height.innerHTML = "10000"
     })
+    land.addEventListener("click", event => {
+        this.window.confirm("The shuttle is landing. Landing gear engaged.");
+    })
 })
