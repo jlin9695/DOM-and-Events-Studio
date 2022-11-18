@@ -14,6 +14,6 @@ window.addEventListener('load', function init () {
         this.window.confirm("Confirm that the shuttle is ready for takeoff.");
         status.innerHTML = "Shuttle in flight." 
         background.style.backgroundColor = "blue";
-        height = "10000"
+        height.innerHTML = "10000"
     })
 })
